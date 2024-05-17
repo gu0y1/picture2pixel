@@ -36,7 +36,7 @@ python -m picture2pixel.convert2pixel <image_url> <width> <height> <svd_r> <outp
 Example:
 
 ```bash
-python -m picture2pixel.convert2pixel https://www.comp.nus.edu.sg/~guoyi/project/picture2pixel/default.png 96 64 20 output_directory
+python -m picture2pixel.convert2pixel https://www.comp.nus.edu.sg/~guoyi/project/picture2pixel/tests/default.png 96 64 20 output_directory
 ```
 
 ### Convert Pixel Data to Image
@@ -50,7 +50,7 @@ python -m picture2pixel.convert2picture <p2p_file> <width> <height> <output_dir>
 Example:
 
 ```bash
-python -m picture2pixel.convert2picture https://www.comp.nus.edu.sg/~guoyi/project/picture2pixel/default.p2p 96 64 output_directory
+python -m picture2pixel.convert2picture https://www.comp.nus.edu.sg/~guoyi/project/picture2pixel/tests/default.p2p 96 64 output_directory
 ```
 
 ## Project Structure
