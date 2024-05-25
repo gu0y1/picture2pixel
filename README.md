@@ -7,7 +7,7 @@
 
 ## Project Wiki (MUST READ!)
 We have created a comprehensive [Wiki](https://github.com/gu0y1/picture2pixel/wiki) for the Picture2Pixel project, which includes development documentation, tutorials, and examples to help developers deploy, use, and further develop our project.
-- **[Tutorial](https://github.com/gu0y1/picture2pixel/wiki/Tutorial)**: Detailed Python and Verilog tutorials, including examples, to help you achieve stunning FPGA display effects similar to those on our official website.
+- **[Tutorial](https://github.com/gu0y1/picture2pixel/wiki/Tutorial)**: Detailed Python and Verilog tutorials, including examples, to help you achieve stunning FPGA display effects similar to those on our [official website](https://www.comp.nus.edu.sg/~guoyi/project/picture2pixel/).
 - **Technical Standards**: Detailed development documentation, including function descriptions and technical standards to facilitate further development of our Python Library.
   - [Python Library Technical Standards](https://github.com/gu0y1/picture2pixel/wiki/Python-Library-Technical-Standard).
   - [Verilog Technical Standards](https://github.com/gu0y1/picture2pixel/wiki/Verilog-Techinal-Standard)
@@ -50,7 +50,7 @@ Example:
 python -m picture2pixel.convert2picture https://www.comp.nus.edu.sg/~guoyi/project/picture2pixel/tests/default.p2p 96 64 output_directory
 ```
 
-## Project Structure
+## Library Structure
 
 ```plaintext
 picture2pixel/
@@ -69,7 +69,7 @@ requirements.txt
 setup.py
 ```
 
-## License
+## MIT License
 
 Copyright (c) <2024> <copyright Chen Guoyi, Fang Sihan>
 
@@ -81,8 +81,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ------------
 
-Picture2Pixel is developed and maintained by:
+**Picture2Pixel** Python Library is developed and maintained, also copyright by:
 - Chen [Guoyi@comp.nus.edu.sg](mailto:guoyi@comp.nus.edu.sg)
 - Fang [Sihan@comp.nus.edu.sg](mailto:sihan@comp.nus.edu.sg)
 
-THIS PROJECT IS SPONSORED BY DEPARTMENT OF ELECTRICAL AND COMPUTER ENGINEERING, NATIONAL UNIVERSITY OF SINGAPORE.
+**Picture2Pixel** Python Library is released to [PyPI](https://pypi.org/project/picture2pixel/).
+
+THIS PROJECT IS SPONSORED BY THE DEPARTMENT OF ELECTRICAL AND COMPUTER ENGINEERING, NATIONAL UNIVERSITY OF SINGAPORE.
