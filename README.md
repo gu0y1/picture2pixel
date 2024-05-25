@@ -8,7 +8,9 @@
 ## Project Wiki (MUST READ!)
 We have created a comprehensive [Wiki](https://github.com/gu0y1/picture2pixel/wiki) for the Picture2Pixel project, which includes development documentation, tutorials, and examples to help developers deploy, use, and further develop our project.
 - **[Tutorial](https://github.com/gu0y1/picture2pixel/wiki/Tutorial)**: Detailed Python and Verilog tutorials, including examples, to help you achieve stunning FPGA display effects similar to those on our official website.
-- **Technical Standards**: Detailed development documentation, including function descriptions and technical standards for [Python Library](https://github.com/gu0y1/picture2pixel/wiki/Python-Library-Technical-Standard) and [Verilog Skeleton Code](https://github.com/gu0y1/picture2pixel/wiki/Verilog-Techinal-Standard), to facilitate further development of our Python Library.
+- **Technical Standards**: Detailed development documentation, including function descriptions and technical standards to facilitate further development of our Python Library.
+  - [Python Library Technical Standards](https://github.com/gu0y1/picture2pixel/wiki/Python-Library-Technical-Standard).
+  - [Verilog Technical Standards](https://github.com/gu0y1/picture2pixel/wiki/Verilog-Techinal-Standard)
 
 ## Installation
 
