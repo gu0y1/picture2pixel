@@ -3,12 +3,12 @@
 
 **Picture2Pixel** is an open-source Python library designed to transform images into pixel art that can be displayed on FPGA-driven OLED screens. By employing advanced computer graphics techniques, this library preprocesses images to minimize distortion during the pixelation process. The resulting artwork is expressed as combinations of predicate logic in Verilog language, ensuring compatibility with FPGA technology. This optimization not only enhances display efficiency on OLED screens but also reduces energy consumption, making it ideal for developers looking to integrate low-power, high-efficiency visual displays into their hardware projects.
 
-**Picture2Pixel** can also convert both single images and batches of images (including GIFs) into formats suitable for FPGA OLED displays. Please view more magnificent GIF demos on our website: [Picture2Pixel.org](http://https://www.comp.nus.edu.sg/~guoyi/project/picture2pixel/)
+**Picture2Pixel** can also convert both single images and batches of images (including GIFs) into formats suitable for FPGA OLED displays. Please view more magnificent demos on our website: [Picture2Pixel.org](https://www.comp.nus.edu.sg/~guoyi/project/picture2pixel/)
 
 ## Project Wiki (MUST READ!)
-We have created a comprehensive Wiki for the Picture2Pixel project, which includes development documentation, tutorials, and examples to help developers deploy, use, and further develop our project.
-- **Tutorials**: Detailed Python and Verilog tutorials, including examples, to help you achieve stunning FPGA display effects similar to those on our official website.
-- **Development Documentation**: Detailed development documentation, including function descriptions and technical standards for Python and Verilog, to facilitate further development of our Python Library.
+We have created a comprehensive [Wiki](https://github.com/gu0y1/picture2pixel/wiki) for the Picture2Pixel project, which includes development documentation, tutorials, and examples to help developers deploy, use, and further develop our project.
+- **[Tutorial](https://github.com/gu0y1/picture2pixel/wiki/Tutorial)**: Detailed Python and Verilog tutorials, including examples, to help you achieve stunning FPGA display effects similar to those on our official website.
+- **Technical Standards**: Detailed development documentation, including function descriptions and technical standards for [Python Library](https://github.com/gu0y1/picture2pixel/wiki/Python-Library-Technical-Standard) and [Verilog Skeleton Code](https://github.com/gu0y1/picture2pixel/wiki/Verilog-Techinal-Standard), to facilitate further development of our Python Library.
 
 ## Installation
 
