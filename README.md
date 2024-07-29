@@ -1,5 +1,7 @@
 ![#Picture2Pixel](https://www.comp.nus.edu.sg/~guoyi/project/picture2pixel/img/title.png)
 
+[![DOI](https://zenodo.org/badge/793338110.svg)](https://zenodo.org/doi/10.5281/zenodo.13119991) 
+
 **Picture2Pixel** is an open-source Python library designed to transform images into pixel art that can be displayed on FPGA-driven OLED screens. By employing advanced computer graphics techniques, this library preprocesses images to minimize distortion during the pixelation process. The resulting artwork is expressed as combinations of predicate logic in Verilog language, ensuring compatibility with FPGA technology. This optimization not only enhances display efficiency on OLED screens but also reduces energy consumption, making it ideal for developers looking to integrate low-power, high-efficiency visual displays into their hardware projects.
 
 **Picture2Pixel** can also convert both single images and batches of images (including GIFs) into formats suitable for FPGA OLED displays. Please view more magnificent demos on our website: [Picture2Pixel.org](https://www.comp.nus.edu.sg/~guoyi/project/picture2pixel/)
