@@ -60,14 +60,14 @@ def load_p2p_file(filepath, width, height):
             unfound_pixels.append((x, y))
             image_array[y, x] = (0, 0, 0)  # Default to black if no match is found
         
-        print_progress_bar(pixel_index + 1, total_pixels, prefix='[INFO:] Pixel2Picture:', suffix='Done', length=30)
+        print_progress_bar(pixel_index + 1, total_pixels, prefix='[ O_o ] Pixel2Picture:', suffix='Done', length=30)
 
     return image_array, unfound_pixels
 
 def save_image(image_array, output_path):
     image = Image.fromarray(image_array)
     image.save(output_path)
-    print(f"[ OK! ] Image saved to {output_path}")
+    print(f"[ ^_^ ] Image saved to {output_path}")
 
 def main(p2p_file, width, height, output_dir):
     # Check if the input file is a URL
@@ -77,13 +77,13 @@ def main(p2p_file, width, height, output_dir):
             response = urlopen(p2p_file)
             with open(local_p2p_file, 'wb') as f:
                 f.write(response.read())
-            print(f"[ OK! ] Pixel data retrieved from {p2p_file} successfully.")
+            print(f"[ ^_^ ] Pixel data retrieved from {p2p_file} successfully.")
             p2p_file = local_p2p_file
         except HTTPError as e:
-            print(f"[ ERR ] HTTP Error: {e.code} - {e.reason} for URL: {p2p_file}")
+            print(f"[ X_X ] HTTP Error: {e.code} - {e.reason} for URL: {p2p_file}")
             return
         except URLError as e:
-            print(f"[ ERR ] URL Error: {e.reason} for URL: {p2p_file}")
+            print(f"[ X_X ] URL Error: {e.reason} for URL: {p2p_file}")
             return
 
     if not os.path.exists(output_dir):
@@ -96,11 +96,11 @@ def main(p2p_file, width, height, output_dir):
     save_image(image_array, output_path)
     
     if unfound_pixels:
-        print("\n[  !  ] Uncolored pixels found at:")
+        print("\n[ >_< ] Uncolored (black) pixels found at:")
         for pixel in unfound_pixels:
             print(f"({pixel[0]}, {pixel[1]})")
     else:
-        print("[ OK! ] All pixels colored successfully.")
+        print("[ ^_^ ] All pixels colored successfully.")
     
     # Clean up the downloaded file if it was used
     if p2p_file == 'downloaded.p2p':
