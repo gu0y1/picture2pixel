@@ -51,6 +51,34 @@ Example:
 python -m picture2pixel.convert2picture https://www.comp.nus.edu.sg/~guoyi/project/picture2pixel/tests/default.p2p 96 64 output_directory
 ```
 
+### Convert Image to Memory Data
+
+Convert an image to memory data (.mem):
+
+```bash
+python -m picture2pixel.convert2mem <image_url> <width> <height> <svd_r> <output_dir>
+```
+
+Example:
+
+```bash
+python -m picture2pixel.convert2mem https://www.comp.nus.edu.sg/~guoyi/project/picture2pixel/tests/default.png 96 64 20 output_directory
+```
+
+### Convert Memory Data to Image
+
+This function is for Convert memory data from a `.mem` file back into an image:
+
+```bash
+python -m picture2pixel.convert2image <p2p_file> <width> <height> <output_dir>
+```
+
+Example:
+
+```bash
+python -m picture2pixel.convert2image https://www.comp.nus.edu.sg/~guoyi/project/picture2pixel/tests/default.mem 96 64 output_directory
+```
+
 ## Library Structure
 
 ```plaintext
@@ -72,7 +100,7 @@ setup.py
 
 ## MIT License
 
-Copyright (c) <2024> <copyright Chen Guoyi, Fang Sihan>
+Copyright (c) <2025> <copyright Chen Guoyi, Fang Sihan>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
